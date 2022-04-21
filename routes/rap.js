@@ -5,7 +5,7 @@ router.get("/LayThongTinHeThongRap", rap.layRap);
 
 router.get("/LayThongTinCumRapTheoHeThong", rap.layCum);
 
-router.get("/LayThongTinLichChieuHeThongRap", rap.layLichChieu);
+router.get("/LayThongTinLichChieuHeThongRap", rap.layRap);
 router.get("/LayThongTinLichChieuPhim", rap.layThongTin);
 
 module.exports = router;

@@ -4,7 +4,7 @@ import { ACCESS_TOKEN } from "../constants/constants";
 
 const axiosClient = axios.create({
     
-    baseURL: 'https://movie0706.cybersoft.edu.vn/api/',
+    baseURL: 'http://localhost:5000/api/',
     headers: {
       'Content-Type':'application/json',
       "Authorization": `Bearer ${ACCESS_TOKEN}`,
