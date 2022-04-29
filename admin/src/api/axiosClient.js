@@ -1,7 +1,7 @@
 import axios from "axios";
 import { BASE_URL } from '../constants/config';
 const axiosClient = axios.create({
-  baseURL: "https://movie0706.cybersoft.edu.vn/api",
+  baseURL: BASE_URL,
 });
 axiosClient.interceptors.request.use((config) => { //tất cả request đều phải qua đây 
   const user = localStorage.getItem('user');

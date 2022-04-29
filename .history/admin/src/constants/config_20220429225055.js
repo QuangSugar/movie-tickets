@@ -304,4 +304,4 @@ export const theme = createMuiTheme({
 
 
 
-export const BASE_URL = "https://movie0706.cybersoft.edu.vn/api";
+// export const BASE_URL = "https://movie0706.cybersoft.edu.vn/api";

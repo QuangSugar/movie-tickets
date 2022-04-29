@@ -2,7 +2,6 @@ export const MA_NHOM = "GP09";
 export const NGAY_HOM_NAY = Date.parse("2020-05-03T00:00:00");
 export const NGAY_KET_THUC = Date.parse("2021-04-06T00:00:00");
 export const  ACCESS_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiaHV5MTIzNDU2IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiS2hhY2hIYW5nIiwibmJmIjoxNjI2MDc4OTE3LCJleHAiOjE2MjYwODI1MTd9.SxLjxLuuw_yaGN8pNGLqTNgVwCG0C5YnuNlHALKw0I4"
-export const BASE_URI = "http://localhost:5000/api";
 
 
 
@@ -330,4 +329,5 @@ export const BASE_URI = "http://localhost:5000/api";
 
 
 
-export const BASE_URL = "https://movie0706.cybersoft.edu.vn/api";
+
+// export const BASE_URL = "https://movie0706.cybersoft.edu.vn/api";

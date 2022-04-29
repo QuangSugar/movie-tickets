@@ -3,7 +3,7 @@ import { ACCESS_TOKEN,BASE_URL } from "../constants/constants";
 
 
 const axiosClient = axios.create({
-  baseURL: BASE_URL,
+  baseURL: B,
   headers: {
     "Content-Type": "application/json",
     Authorization: `Bearer ${ACCESS_TOKEN}`,
