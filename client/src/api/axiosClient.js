@@ -3,12 +3,11 @@ import { ACCESS_TOKEN } from "../constants/constants";
 
 
 const axiosClient = axios.create({
-    
-    baseURL: 'http://localhost:5000/api/',
-    headers: {
-      'Content-Type':'application/json',
-      "Authorization": `Bearer ${ACCESS_TOKEN}`,
-    },
+  baseURL: "https://movie0706.cybersoft.edu.vn/api/",
+  headers: {
+    "Content-Type": "application/json",
+    Authorization: `Bearer ${ACCESS_TOKEN}`,
+  },
 });
 
 

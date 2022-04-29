@@ -3,7 +3,7 @@ import $ from "jquery";
 import React, { useRef, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import logo2 from '../../../../assets/images/logo2.png';
+import logo2 from '../../../../assets/images/logo.jpg';
 import { NGAY_HOM_NAY, NGAY_KET_THUC } from '../../../../constants/constants';
 import "./listMovieNow.css";
 
